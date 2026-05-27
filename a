@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>カフェメニュー</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+
+    <header class="bg-gray-500 mb-6 p-6 max-width-3xl rounded shadow">
+        <h1 class="text-2xl font-bold text-center text-white">カフェメニュー</h1>
+    </header>
+
+    <body class="bg-pink-100  p-8 items-center justify-center rounded w-80 shadow mx-auto">
+
+        <main class="max-w-xl mx-auto">
+            <div class="bg-pink-300 rounded shadow p-4 w-full mb-2">
+                <h1 class="font-bold text-white">ブレンドコーヒー</h1>
+                <p class="text-white">600円</p>
+            </div>
+            <div class="bg-pink-300 rounded shadow p-4 w-full mb-2">
+                <h1 class="font-bold text-white">カフェラテ</h1>
+                <p class="text-white">700円</p>
+            </div>
+            <div class="bg-pink-300 rounded shadow p-4 w-full mb-2">
+                <h1 class="font-bold text-white">カプチーノ</h1>
+                <p class="text-white">750円</p>
+            </div>
+            <div class="bg-pink-300 rounded shadow p-4 w-full mb-2">
+                <h1 class="font-bold text-white">ティー（hot/ice）</h1>
+                <p class="text-white">500円</p>
+            </div>
+        </main>
+    </body>
+</html>
